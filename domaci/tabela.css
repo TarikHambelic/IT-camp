@@ -1,0 +1,19 @@
+body {
+  background-color: burlywood;
+}
+table {
+  border-radius: 20px;
+  overflow: hidden;
+  /* border-collapse: collapse; */
+  box-shadow: 8px 8px 8px #14142b, -8px -8 px 8px #14142b;
+  border-spacing: 0px;
+}
+tr:nth-of-type(even) {
+  background-color: #2cbe22;
+}
+tr:nth-of-type(odd) {
+  background-color: #f0f8ff;
+}
+td {
+  border: 1px dashed #ff0000;
+}
