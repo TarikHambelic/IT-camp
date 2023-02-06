@@ -39,3 +39,6 @@ body {
 /* rem-ona je relativna u odnosu na root element.Ne nasledjuje od parenta */
 /* vw-viewport of the with.Relativan za jedan procenat u odnosu na sirinu ekrana */
 /* vh-viewport of the height.Relativan za jedan procenat u odnosu na visinu ekrana */
+/* vmin-Relativan za 1% u odnosu na manju dimenziju */
+/* vmax-Relativan za 1% u odnosu na vecu dimenziju */
+/* %-Relativan 1% u odnosu na svog parenta */
