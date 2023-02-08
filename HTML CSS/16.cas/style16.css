@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  /* position static;je defaultna vrednost */
+}
+.parent {
+  width: 90%;
+  height: 200vh;
+  background-color: #7fffd4;
+  margin: 40px auto 0px;
+  position: relative;
+}
+.parent h1 {
+  font-size: 50px;
+}
+.child-one {
+  background-color: burlywood;
+  height: 130px;
+  /* width: 600px; */
+  /* position: relative; */
+  /* dobijamo 4 nova css svojstva */
+  /* top: 640px; */
+  /* bottom: ; */
+  /* left: 40px; */
+  /* right: ; */
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  z-index: 5;
+}
+.child-two {
+  background-color: blue;
+  height: 130px;
+  position: fixed;
+  right: 20px;
+  z-index: 5;
+}
+.child-three {
+  background-color: chartreuse;
+  height: 130px;
+  position: sticky;
+  top: 40px;
+}
+.child-four {
+  background-color: crimson;
+  height: 130px;
+}
