@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 250px;
+  /* background-color: cornflowerblue; */
+  position: relative;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 40px 20px 20px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-left: 20px;
+}
+header input {
+  width: 700px;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+header div {
+  display: inline-block;
+}
+.icon {
+  font-size: 30px;
+  margin-left: 30px;
+}
+header a,
+header input,
+header div {
+  position: relative;
+  bottom: 35px;
+}
+.main {
+  background-color: grey;
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.main-text {
+  float: left;
+  background-color: aliceblue;
+  height: 150px;
+  width: 500px;
+  margin-left: 70px;
+  margin-top: 100px;
+  font-size: 25px;
+  padding: 15px;
+}
+.img {
+  position: absolute;
+  left: 700px;
+  bottom: 0px;
+}
+.cards {
+  display: inline-block;
+  height: 100px;
+  width: 400px;
+  background-color: white;
+  font-size: 14px;
+  color: black;
+}
