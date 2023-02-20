@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: #5f9ea0;
+  display: flex;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  flex-direction: column;
+  /* horizontalno poravnanje */
+  /* align-items: flex-end; */
+
+  /* vertikalno poravnanje */
+  /* justify-content: flex-end; */
+}
+.box {
+  /* flex-basis: 150px; */
+  width: 171px;
+  /* flex-basis je dobra praksa za koriscenje umesto width.Isti je efekat. */
+  height: 150px;
+  /* order svojstvo nam sluzi za redjanje elemenata na stranici po nasoj zelji.Menjamo html poredak elemenata. */
+}
+.first {
+  background-color: green;
+}
+.second {
+  background-color: gray;
+}
+.third {
+  background-color: bisque;
+}
