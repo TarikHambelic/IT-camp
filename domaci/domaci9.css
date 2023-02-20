@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  /* overflow: hidden; */
+}
+header {
+  /* width: 100px; */
+  display: flex;
+  justify-content: flex-end;
+
+  height: 100px;
+  background-color: rgb(116, 116, 189);
+  /* display: inline-block; */
+  /* margin-top: 20px; */
+}
+header a {
+  display: inline-block;
+  /* float: right; */
+  display: flex;
+  /* justify-content: flex-start; */
+  padding: 15px;
+  color: white;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+header button {
+  float: right;
+  border-radius: 45px;
+  /* font-size: 30px; */
+  height: 50px;
+  width: 110px;
+  background-color: white;
+  margin-top: 20px;
+}
+header h1 {
+  /* margin-top: 30px; */
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* margin-left: 500px; */
+  /* margin-bottom: 50px; */
+  position: relative;
+  right: 500px;
+  margin-top: 20px;
+}
+.child1 {
+  width: 250px;
+  height: 250px;
+  border: solid 3px black;
+  /* background-color: gray; */
+  margin-top: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.child2 {
+  width: 250px;
+  height: 250px;
+  border: solid 3px black;
+  margin-top: 60px;
+  text-align: center;
+  overflow: hidden;
+}
+.child3 {
+  width: 250px;
+  height: 250px;
+  border: solid 3px black;
+  margin-top: 330px;
+  position: absolute;
+  /* right: 500px; */
+  text-align: center;
+  overflow: hidden;
+}
+.child4 {
+  width: 250px;
+  height: 250px;
+  border: solid 3px black;
+  margin-top: 400px;
+  /* position: absolute; */
+  /* margin-left: 200px; */
+  position: relative;
+  right: 310px;
+  text-align: center;
+  overflow: hidden;
+}
+.parent {
+  display: flex;
+  gap: 60px;
+  margin-left: 40px;
+}
+.child1 h1 {
+  /* padding: auto; */
+  margin-top: 60px;
+}
+.child1 p {
+  margin-top: 20px;
+}
+.child2 h1 {
+  /* padding: auto; */
+  margin-top: 60px;
+}
+.child2 p {
+  margin-top: 20px;
+}
+.child3 h1 {
+  /* padding: auto; */
+  margin-top: 60px;
+}
+.child3 p {
+  margin-top: 20px;
+}
+.child4 h1 {
+  /* padding: auto; */
+  margin-top: 60px;
+}
+.child4 p {
+  margin-top: 20px;
+}
+.icon1 {
+  font-size: 30px;
+  margin-top: 25px;
+}
+.icon2 {
+  font-size: 30px;
+  margin-top: 25px;
+}
+.icon3 {
+  font-size: 30px;
+  margin-top: 25px;
+}
+.icon4 {
+  font-size: 30px;
+  margin-top: 25px;
+}
+.img {
+  /* font-size: smaller; */
+  /* width: 200px; */
+  /* height: 200px; */
+  /* margin-top: 50px; */
+  /* padding-right: 50px; */
+  /* display: flex; */
+  margin-left: 800px;
+  /* margin-bottom: 1000px; */
+  position: relative;
+  bottom: 500px;
+}
